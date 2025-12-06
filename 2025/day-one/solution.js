@@ -2,7 +2,7 @@ const DoublyLinkedList = require('../../data-structures/doubly-linked-list.js');
 const Node = require('../../data-structures/node.js');
 const fs = require('node:fs');
 
-fs.readFile('2025/day-one/input.txt', 'utf8', (err, data) => {
+fs.readFile('2025/day-one/real-input.txt', 'utf8', (err, data) => {
   if (err) {
     console.error('How could this even err??', err);
     return;

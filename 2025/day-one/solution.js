@@ -36,7 +36,6 @@ function safeCracker(input) {
             // L = go left, subtract
             console.log("Turning left ", amount, " times.");
             let turns = 0;
-            dial.getNodeAtIndex(startingPoint);
             while (turns < amount) {
                 currentDialNode = currentDialNode.preceding;
                 turns++;
@@ -50,7 +49,6 @@ function safeCracker(input) {
             // R = go right, add
             console.log("Turning right ", amount, " times")
             let turns = 0;
-            dial.getNodeAtIndex(startingPoint);
             while (turns < amount) {
                 currentDialNode = currentDialNode.next;
                 turns++;

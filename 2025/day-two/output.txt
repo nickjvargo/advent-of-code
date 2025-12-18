@@ -1,0 +1,3 @@
+Found bad id 11 in range 1-12 sir.
+Repeating character sequence is 1 which repeats 2 times.
+Adding to solution. Solution is now 11.
